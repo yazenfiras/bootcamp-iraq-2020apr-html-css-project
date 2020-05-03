@@ -8,7 +8,14 @@ MY team name is:the fantastic four
 our project is https://jevelin.shufflehound.com/landing2/
 
 
+Neven will word from the bigining until about event
+Rand will work form about event to event time line
+Hameed will work from event timeline until event location 
+Yazen will work from location to the end of page 
 
+we will reach about 60% of the project in the 5 of may 
+
+we will use bootstrab framework for the css
 
 
 # HTML/CSS Project
