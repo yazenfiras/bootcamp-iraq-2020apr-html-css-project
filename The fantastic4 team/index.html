@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,252 +6,304 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing2</title>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/animate.css">
+  <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" >
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="/bootstrap/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="animate.min.css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
 </head>
 <body>
- 
-  <header>
-
-    <!--Neven part-->
+  
+   <!--Neven part-->
+  <header class="home-background-img">
+  
+    <!-----our navbar-------->
+    <nav  id="nav"  class="navbar navbar-expand-lg navbar-light  fixed-top">
+      <a  class="navbar-brand" href="https://jevelin.shufflehound.com/hello/"><img src="images/logo.png" id="logo" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     
-    <!-----our navbar---------->
-    <nav  id="nav"  class="navbar navbar-expand-lg   fixed-top">
-        <a id="logo" class="navbar-brand" href="https://jevelin.shufflehound.com/hello/"><img src="imgs/logo.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto ">
-            <li class="nav-item ">
-              <a class="nav-link " href="#Home">Home </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto ">
+          <li class="nav-item ">
+            <a class="nav-link " href="#Home">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  " href="#About">About</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link " href="#who's speaking">who's speaking?</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  " href="#About">About</a>
+              <a class="nav-link " href="#Schedule">schedule</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="#who's speaking">who's speaking?</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="#Schedule">schedule</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link  " href="#location">location</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="#"><i class="fa fa-twitter" ></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link  " href="#"><i class="fa fa-facebook"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="#"><i class="fa fa-instagram"></i></a>
-              </li>
-        </div>
-      </nav>
-    </header>  
+              <a class="nav-link  " href="#location">location</a>
+            </li>
+            <li class="nav-item" id="icon">
+              <a class="nav-link " href="#"><i class="fa fa-twitter" ></i></a>
+            </li>
+            <li class="nav-item" id="icon">
+              <a class="nav-link  " href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="nav-item" id="icon">
+              <a class="nav-link " href="#"><i class="fa fa-instagram"></i></a>
+            </li>
+      </div>
+    </nav>
+  </header>  
 
-    <!-----------------------home section---------->
-    <section class="container-fluid" id="Home">
-       <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-        <h1 class="display-3 text-weight-bold text-white text-center ">Jevelin<b>landing page</b>  event </h1>
-        <p class="lead  text-white text-center">Send us your e-mail & we will save you a seat!</p>
-      </div>
-      </div>
-      <div class="row">
-          <form action="" class="mt-5">
-            <input type="email" placeholder="Enter your email"><br>
-            <input type="submit" value="Subscrib Now">
-          </form>
-        </div>
+  <!-----------------------home section---------->
+  <section class="container-fluid home-background-img" id="Home">
+     <div class="container neven">
      
-      <div class="row ">
-        <svg  class="bi bi-clock " width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="color: gray;">
-          <path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm8-7A8 8 0 110 8a8 8 0 0116 0z" clip-rule="evenodd"/>
-          <path fill-rule="evenodd" d="M7.5 3a.5.5 0 01.5.5v5.21l3.248 1.856a.5.5 0 01-.496.868l-3.5-2A.5.5 0 017 9V3.5a.5.5 0 01.5-.5z" clip-rule="evenodd"/>
-        </svg>
+    <div class="row">
+      <div class="col-md-12">
+      <h1 class="display-3 text-weight-bold text-white text-center animated bounceInLeft ">Jevelin <b>landing page</b>  event </h1>
+      <p class="lead  text-white text-center animated bounceInLeft">Send us your e-mail & we will save you a seat!</p>
+    </div>
+    </div>
+    <div class="row">
+      <form action="" class="mt-5">
+        <input class="input" type="email" placeholder="Enter your email" required="required"><br>
+        <input class="input" type="submit" value="Subscrib Now">
+      </form>
+    </div>
+
+   
+    <div class="row ">
+      <svg  class="bi bi-clock " width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="color: gray;">
+        <path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm8-7A8 8 0 110 8a8 8 0 0116 0z" clip-rule="evenodd"/>
+        <path fill-rule="evenodd" d="M7.5 3a.5.5 0 01.5.5v5.21l3.248 1.856a.5.5 0 01-.496.868l-3.5-2A.5.5 0 017 9V3.5a.5.5 0 01.5-.5z" clip-rule="evenodd"/>
+      </svg>
+    </div>
+    <div class="row">
+      <div class="countdown">
+        <span>oo</span>
+        <p>Weeks</p>
       </div>
-      <div class="row">
-        <div class="countdown">
-          <span>oo</span>
-          <p>Weeks</p>
-        </div>
-        <div class="countdown">
-          <span>oo</span>
-          <p>Days</p>
-        </div>
-        <div class="countdown">
-          <span>oo</span>
-          <p>Hours</p>
-        </div>
-        <div class="countdown">
-          <span>oo</span>
-          <p>Minutes</p>
-        </div>
-        <div class="countdown">
-          <span>oo</span>
-          <p>Seconds</p>
-        </div>
+      <div class="countdown">
+        <span>oo</span>
+        <p>Days</p>
+      </div>
+      <div class="countdown">
+        <span>oo</span>
+        <p>Hours</p>
+      </div>
+      <div class="countdown">
+        <span>oo</span>
+        <p>Minutes</p>
+      </div>
+      <div class="countdown">
+        <span>oo</span>
+        <p>Seconds</p>
       </div>
     </div>
-    </section>
-    <!------------this is for changing background on scroll-->
-    <script type="text/javascript">
-       var nav=document.getElementById('nav');
-      window.onscroll=function(){
-       if(window.pageYOffset>10){
-        nav.classList.add('active');
-       }
-      else{
-        nav.classList.remove('active');
+  </div>
+  </section>
+  <!------------this is for changing background on scroll-->
+                                  
+  <script type="text/javascript">
+
+     var nav=document.getElementById('nav');
+    window.onscroll=function(){
+     if(window.pageYOffset>10){
+    
+      nav.classList.add('scroll');
+     }
+    else{
+      nav.classList.remove('scroll');
+    }
+    }
+    
+    $(function () { 
+  $(window).scroll(function () {
+      if ($(this).scrollTop() > 5) { 
+          $('.navbar .navbar-brand img').attr('src','images/logo2.png');
+          
       }
+      else { 
+          $('.navbar .navbar-brand img').attr('src','images/logo.png');
       }
+  })
+});
 
-    </script>
+  </script>
 
-
+ 
 <!--Rand part-->
-
-
-
 <section>
 
-  <div>
+  <div class="container">
+    <p style="opacity: 0% ;">"</p>
+    <p style="opacity: 0% ;">"</p>
+
     <p class="rand-title-event"><span class="size-30">What you need to know <span class="size-36"><strong>about event
           </strong></span></span></p>
-          <p class="rand-title-event">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Mauris at sem eget arcu pulvinar porta sed vel sem. Ut <br> eleifend metus vitae tortor ultricies,
+    <hr></br>
+    <p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at sem eget arcu
+      pulvinar porta sed vel sem. Ut eleifend metus vitae tortor ultricies, non vestibulum dolor ultrices. Phasellus
+      elementum diam arcu, quis scelerisque augue consectetur sit amet. Proin ornare ex vel placerat tincidunt. Donec
+      viverra sapien vitae nunc fringilla gravida. Aenean tincidunt dignissim tempor. Maecenas ut tristique arcu. Duis
+      vulputate volutpat ante euismod semper.</p>
+      <p class="card-text" style="opacity: 0% ;">"</p>
       
-            non vestibulum dolor ultrices. Phasellus elementum diam arcu, quis scelerisque <br> augue consectetur sit amet.
-            Proin ornare ex vel placerat tincidunt. Donec viverra sapien vitae nunc fringilla gravida. </br>Aenean tincidunt
-            dignissim tempor.
-            Maecenas ut tristique arcu. Duis vulputate volutpat ante euismod semper</p>
+    <hr></br>
+  </div>
+  <div class="container">
+    <div class="row ">
+      <div class="col-md-4" style="display: flex;">
+
+        <div><i class="fa fa-comment fw-fa fa-2x"></i></div>
+        <div style="padding-left: 30px;">
+          <h6> Fast & snappy </h6>
+          <p>In at urna commodo, tempor risus consectetur,sodales massa. Mauris nec blandit dolor.
+            Nullam tincidunt mi
+            nec urna luctus,
+            et pretium nunc facilisis.</p>
+            <p class="card-text" style="opacity: 0% ;">"</p>
+            <p class="card-text" style="opacity: 0% ;">"</p>
+        </div>
+      </div>
+      <div class="col-md-4" style="display: flex;">
+        <div><i class="fa fa-bolt fw-fa fa-3x"></i></div>
+        <div style="padding-left: 33px;">
+          <h6>Fresh Ideas</h6>
+          <p>In at urna commodo, tempor risus consectetur, sodales massa. Mauris nec blandit dolor.
+            Nullam tincidunt mi nec urna luctus, et pretium nunc facilisis.</p>
+            <p class="card-text" style="opacity: 0% ;">"</p>
+            <p class="card-text" style="opacity: 0% ;">"</p>
+        </div>
+      </div>
+      <div class="col-md-4" style="display: flex;">
+        <div> <i class="fa fa-bullhorn fw-fa fa-2x"></i></div>
+        <div style="padding-left: 30px;">
+          <h6> Costumizable </h6>
+          <p>In at urna commodo, tempor risus consectetur, sodales massa. Mauris nec blandit dolor.
+            Nullam tincidunt mi nec urna luctus,
+            et pretium nunc facilisis. </p>
+            <p class="card-text" style="opacity: 0% ;">"</p>
+            <p class="card-text" style="opacity: 0% ;">"</p>
+        </div>
+      </div>
+    </div>
+
+
   </div>
 
-  <div class="row">
-    <div class="column" >
-      <p>Fast & snappy</p>
-      <p>In at urna commodo, tempor risus consectetur,</br> sodales massa. Mauris nec blandit dolor. 
-      </br>Nullam tincidunt mi
-        nec urna luctus, 
-      </br>et pretium nunc facilisis.</p>
-    </div>
-    <div class="column">
-      <p>Fresh Ideas</p>
-      <p>In at urna commodo, tempor risus consectetur, sodales massa. Mauris nec blandit dolor. Nullam tincidunt mi
-        nec urna luctus, et pretium nunc facilisis.</p>
-    </div>
-    <div class="column">
-      <p>Costumizable</p>
-      <p>In at urna commodo, tempor risus consectetur, sodales massa. Mauris nec blandit dolor. Nullam tincidunt mi
-        nec urna luctus, et pretium nunc facilisis.</p>
-    </div>
-  </div>
- 
 </section>
+<section style="background-color: #e2e2e2;">
+  <div>
+    <div class="guest container">
+      <p class="rand-title-event "><span class="size-30"> Guest <span class="size-30"><strong>
+              Speakers </strong></span></span></p>
+      <p class="rand-title-event"> Phasellus elementum diam arcu,quis scelerisque </br>
 
+        augue consectetur sit amet</p>
+    </div>
 
-<div class="guest">
-  <p class="rand-title-event "><span class="size-30"> Geust <span class="size-30"><strong>
-          Speakers </strong></span></span></p>
-  <p class="rand-title-event"> Phasellus elementum diam arcu,quis scelerisque </br>
+    <div class="guest-card container" style="background-color: #e2e2e2;">
+      <div class="d-flex justify-content-center">
+        <div class="row row-cols-1 row-cols-md-4">
+          <div class="col mb-4">
+            <div class="card" style="border:none">
+              <div style="padding: 1.25rem; background: #e2e2e2">
 
-    augue consectetur sit amet</p>
-</div>
+                <img src="images/1.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body" style="background-color: #e2e2e2;">
+                <h5 class="card-title">Eliea Summers</h5>
+                <p class="card-text">FREELANCER </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pulvinar justo ut ligula
+                  convallis,
+                  a
+                  pretium massa gravida. Etiam laoreet nunc augue</p>
+                <a href="https://jevelin.shufflehound.com/"> <i class=" fa fa-linkedin fa-fw"></i> </a>
+                <a href="https://jevelin.shufflehound.com/"><i class="fa fa-facebook fa-fw"></i></a>
 
-<div class="guest-card" style="background-color: rgb(185, 185, 185);">
-  <div class="d-flex justify-content-center">
-    <div class="row row-cols-1 row-cols-md-4">
-      <div class="col mb-4">
-        <div class="card" style="border:none">
-          <div style="padding: 1.25rem; background: rgb(185, 185, 185)">
+                <a href="https://jevelin.shufflehound.com/"><i class="fa fa-instagram fa-fw"></i></a>
+              </div>
 
-            <img src="image/1.jpg" class="card-img-top" alt="...">
+            </div>
           </div>
-          <div class="card-body grey-bc">
-            <h5 class="card-title">Eliea Summers</h5>
-            <p class="card-text">FREELANCER </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pulvinar justo ut ligula convallis,
-              a
-              pretium massa gravida. Etiam laoreet nunc augue</p>
+          <div class="col mb-4">
+            <div class="card" style="border:none" ;>
+              <div style="padding: 1.25rem; background: #e2e2e2">
 
-            <i class="fab fa-500px"></i> <i class="fab fa-500px"></i> <i class="fab fa-500px"></i>
+                <img src="images/2.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body" style="background:#e2e2e2" ;>
+                <h5 class="card-title">Aria Saal</h5>
+                <p class="card-text">DESIGNER
+                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pulvinar justo ut ligula
+                  convallis,
+                  a
+                  pretium massa gravida. Etiam laoreet nunc augue
+
+                </p>
+
+                <a href="https://jevelin.shufflehound.com/"> <i class=" fa fa-linkedin fa-fw"></i> </a>
+                <a href="https://jevelin.shufflehound.com/"><i class="fa fa-facebook fa-fw"></i></a>
+
+                <a href="https://jevelin.shufflehound.com/"><i class="fa fa-inbox fa-fw"></i></a>
+              </div>
+            </div>
           </div>
+          <div class="col mb-3">
+            <div class="card " style="border:none" ;>
+              <div style="padding: 1.25rem; background: #e2e2e2">
 
-        </div>
-      </div>
-      <div class="col mb-4">
-        <div class="card" style="border:none" ;>
-          <div style="padding: 1.25rem; background: rgb(185, 185, 185)">
+                <img src="images/3.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body" style="background: #e2e2e2" ;>
+                <h5 class="card-title">Tim Murreh</h5>
+                <p>Photographer</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pulvinar justo ut ligula
+                  convallis,
+                  a
+                  pretium massa gravida. Etiam laoreet nunc augue</p>
+                <a href="https://jevelin.shufflehound.com/"> <i class="fa fa-skype fa-fw"></i></a>
+                <a href="https://jevelin.shufflehound.com/"><i class="fa fa-facebook fa-fw"></i></a>
 
-            <img src="image/2.jpg" class="card-img-top" alt="...">
+                <a href="https://jevelin.shufflehound.com/"><i class="fa fa-instagram fa-fw"></i></a>
+              </div>
+            </div>
           </div>
-          <div class="card-body" style="background: rgb(185, 185, 185)" ;>
-            <h5 class="card-title">Aria Saal</h5>
-            <p class="card-text">DESIGNER
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pulvinar justo ut ligula convallis,
-              a
-              pretium massa gravida. Etiam laoreet nunc augue
+          <div class="col mb-3">
+            <div class="card" style="border:none" ;>
+              <div style="padding: 1.25rem; background: #e2e2e2;">
 
-            </p>
+                <img src="images/4.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body" style="background: #e2e2e2" ;>
 
-            <i class="fab fa-500px"></i> <i class="fab fa-500px"></i> <i class="fab fa-500px"></i>
-          </div>
-        </div>
-      </div>
-      <div class="col mb-3">
-        <div class="card " style="border:none" ;>
-          <div style="padding: 1.25rem; background: rgb(185, 185, 185)">
-
-            <img src="image/3.jpg" class="card-img-top" alt="...">
-          </div>
-          <div class="card-body" style="background: rgb(185, 185, 185)" ;>
-            <h5 class="card-title">Tim Murreh</h5>
-            <p>Photographer</p>
-            <p class="card-text">Donec laoreet nec odio at faucibus. Praesent gravida, neque nec luctus lacinia, metus
-              mi
-              euismod nisl, id efficitur elit tortor non velit.</p>
-
-            <i class="fab fa-500px"></i> <i class="fab fa-500px"></i> <i class="fab fa-500px"></i>
-          </div>
-        </div>
-      </div>
-      <div class="col mb-3">
-        <div class="card" style="border:none" ;>
-          <div style="padding: 1.25rem; background: rgb(185, 185, 185)">
-
-            <img src="image/4.jpg" class="card-img-top" alt="...">
-          </div>
-          <div class="card-body" style="background: rgb(185, 185, 185)" ;>
-
-            <strong class="card-title">Share your story with the world!</strong>
-            <p class="card-text" style="opacity: 0% ;">"</p>
-            <p></p>Nam vulputate lobortis odio ac egestas. Cras ornare, augue sit amet varius mollis,
-            </p>
-            <p class="card-text" style="opacity: 0% ;">"</p>
-            <a href="#" class="btn btn-primary">how to apply ?</a>
+                <strong class="card-title">Share your story with the world!</strong>
+                <p class="card-text" style="opacity: 0% ;">"</p>
+                <p></p>Nam vulputate lobortis odio ac egestas. Cras ornare, augue sit amet varius mollis,
+                </p>
+                <p class="card-text" style="opacity: 0% ;">"</p>
+              </a>
+              <div class=hta-bottom>
+                              <a href="#" style="color: aliceblue;">How to apply ?</a>
+                            </div>
+              
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-
+</section>
+  
 <!--Hameed part-->
 
 <!-- Event time line -->
@@ -280,7 +331,7 @@
                           <div class="time-circle"></div>
                           <div class="time-body">
                               <h4>
-                                  <i class="far fa-edit"></i> Check in event
+                                  <i class="fa fa-edit"></i> Check in event
                               </h4>
                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget ullamcorper
                                   est. Vivamus dictm orci tempus, porttitor lacus in, bibendum justo.
@@ -295,7 +346,7 @@
                           <div class="time-circle"></div>
                           <div class="time-body">
                               <h4>
-                                  <i class="far fa-clock"></i> First speaker
+                                <i class="fa fa-bolt"></i> First speaker
                               </h4>
                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget ullamcorper
                                   est. Vivamus dictm orci tempus, porttitor lacus in, bibendum justo.
@@ -310,7 +361,7 @@
                           <div class="time-circle"></div>
                           <div class="time-body">
                               <h4>
-                                  <i class="fas fa-trophy"></i> Audience contest
+                                  <i class="fa fa-trophy"></i> Audience contest
                               </h4>
                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget ullamcorper
                                   est. Vivamus dictm orci tempus, porttitor lacus in, bibendum justo.
@@ -325,7 +376,7 @@
                           <div class="time-circle"></div>
                           <div class="time-body">
                               <h4>
-                                  <i class="fas fa-coffee"></i> Tea break
+                                  <i class="fa fa-coffee"></i> Tea break
                               </h4>
                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget ullamcorper
                                   est. Vivamus dictm orci tempus, porttitor lacus in, bibendum justo.
@@ -365,9 +416,6 @@
   </div>
 </section>
 
-
-
-
 <!--YAZEN part-->
 
   <!-- Event Location Section-->
@@ -403,7 +451,7 @@
   
     <!--Google map-->
   
-    <section class="map">
+    <section class="map col-md-12">
   
     <figure>
   
@@ -433,26 +481,26 @@
   
       <div class="scrollmenu ">
   
-        <img src="Home_11_par_1.png"  class=" animated slideInRight slow infinite">
-        <img src="Home_11_par_2.png"  class=" animated slideInRight slow infinite">
-        <img src="Home_11_par_3.png"  class=" animated slideInRight slow infinite">
-        <img src="Home_11_par_4.png"  class=" animated slideInRight slow infinite">
-        <img src="Home_11_par_5.png"  class=" animated slideInRight slow infinite ">
-        <img src="Home_11_par_1.png"  class=" animated slideInRight slow infinite">
-        <img src="Home_11_par_2.png"  class=" animated slideInRight slow infinite ">
-        <img src="Home_11_par_3.png"  class=" animated slideInRight slow infinite ">
-        <img src="Home_11_par_4.png"  class=" animated slideInRight slow infinite">
-        <img src="Home_11_par_5.png"  class=" animated slideInRight slow infinite">
-        <img src="Home_11_par_1.png"  class=" animated slideInRight slow infinite">
-        <img src="Home_11_par_2.png"  class=" animated slideInRight slow infinite ">
-        <img src="Home_11_par_3.png"  class=" animated slideInRight slow infinite">
-        <img src="Home_11_par_4.png"  class=" animated slideInRight slow infinite">
-        <img src="Home_11_par_5.png"  class=" animated slideInRight slow infinite">
-        <img src="Home_11_par_1.png"  class=" animated slideInRight slow infinite">
-        <img src="Home_11_par_2.png"  class=" animated slideInRight slow infinite">
-        <img src="Home_11_par_3.png"  class=" animated slideInRight slow infinite">
-        <img src="Home_11_par_4.png"  class=" animated slideInRight slow infinite" >
-        <img src="Home_11_par_5.png"  class=" animated slideInRight slow infinite">
+        <img src="images/Home_11_par_1.png"  class=" animated slideInRight slow infinite">
+        <img src="images/Home_11_par_2.png"  class=" animated slideInRight slow infinite">
+        <img src="images/Home_11_par_3.png"  class=" animated slideInRight slow infinite">
+        <img src="images/Home_11_par_4.png"  class=" animated slideInRight slow infinite">
+        <img src="images/Home_11_par_5.png"  class=" animated slideInRight slow infinite ">
+        <img src="images/Home_11_par_1.png"  class=" animated slideInRight slow infinite">
+        <img src="images/Home_11_par_2.png"  class=" animated slideInRight slow infinite ">
+        <img src="images/Home_11_par_3.png"  class=" animated slideInRight slow infinite ">
+        <img src="images/Home_11_par_4.png"  class=" animated slideInRight slow infinite">
+        <img src="images/Home_11_par_5.png"  class=" animated slideInRight slow infinite">
+        <img src="images/Home_11_par_1.png"  class=" animated slideInRight slow infinite">
+        <img src="images/Home_11_par_2.png"  class=" animated slideInRight slow infinite ">
+        <img src="images/Home_11_par_3.png"  class=" animated slideInRight slow infinite">
+        <img src="images/Home_11_par_4.png"  class=" animated slideInRight slow infinite">
+        <img src="images/Home_11_par_5.png"  class=" animated slideInRight slow infinite">
+        <img src="images/Home_11_par_1.png"  class=" animated slideInRight slow infinite">
+        <img src="images/Home_11_par_2.png"  class=" animated slideInRight slow infinite">
+        <img src="images/Home_11_par_3.png"  class=" animated slideInRight slow infinite">
+        <img src="images/Home_11_par_4.png"  class=" animated slideInRight slow infinite" >
+        <img src="images/Home_11_par_5.png"  class=" animated slideInRight slow infinite">
        
       </div>
   
@@ -492,8 +540,6 @@
  
   
   </section>
-
-
 
 </body>
 </html>
